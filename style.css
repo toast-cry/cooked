@@ -65,7 +65,7 @@ h1 {
 
 .article-but {
     text-decoration: none;
-    background-color: #133aac;
+    background-color: #36bbce;
     color: white;
     font-size: 24px;
     text-align: center;
@@ -102,20 +102,21 @@ footer {
 
 aside {
     position: fixed;
-    background-color: #850AE5;
+    background-color: white;
     right: 0;
     bottom: 0px;
-    height: 200px;
-    width: 100px;
+    height: 250px;
+    width: 150px;
     border-radius: 10%;
     padding-left: 20px;
+    font-size: 24px;
 }
 
 
 .new {
-    position: relative;
-    left: 330px;
-    top: 30px;
+    position: absolute;
+    left: 370px;
+    top: 50px;
     width: 100px;
     
 }
@@ -123,4 +124,41 @@ aside {
 .new:hover {
     border: 5px dotted black;
     border-radius: 40%;
+}
+
+
+h1::after {
+    content: url("https://learn.logika.asia/uploads/student/5179574/682dc91b78324.png");
+}
+
+h1::before {
+    content: url("https://learn.logika.asia/uploads/student/5179574/682dc91b78324.png");
+}
+
+.post:hover {
+    color: white;
+    background-color: #78a1bb;
+}
+
+.article-but:hover {
+    color: #283044;
+    background-color: #ebf5ee;
+    border: 5px solid #283044;
+}
+
+.post-img {
+    background-color: white;
+}
+
+.post {
+    position: relative;
+}
+
+.button:hover {
+    background-color: #ebf5ee;
+    color: #283044;
+}
+
+.social {
+    margin: 20px 0 0 40px;
 }
